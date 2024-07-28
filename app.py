@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the model
-xgb_model = joblib.load(r"D:\Dev\Learn\machineLearning\gdsc-itb\xgb_model.pkl")
+xgb_model = joblib.load("xgb_model.pkl")
 
 
 # Function to make predictions
